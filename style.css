@@ -61,9 +61,13 @@ p {
    /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
 }
-  /*prespectiv creates the door open effect*/
+  /*perspective creates the door open effect*/
 
 .door:hover {
+    cursor: pointer;
+}
+
+.backDoor:hover {
     cursor: pointer;
 }
 /*
