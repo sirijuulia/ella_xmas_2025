@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(./images/background-winter.jpg);;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(./images/background-winter.jpg);;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,8 +8,13 @@ body {
 }
 
 main {
-    width: 80%;
+    width: 90%;
     margin: 3em auto;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 2rem;
 }
 
 h1 {
@@ -18,6 +23,7 @@ h1 {
     font-size: 3em;
     color: slategrey;
     text-shadow: 2px 2px 2px black;
+    margin: 0 0 1.5rem;
     
 }
 
@@ -26,7 +32,13 @@ p {
     font-family: "Montserrat";
     font-size: 1.5em;
     color: black;
-    margin: 0 10%;
+    margin: 0 5%;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
 }
 
 .luukku-container {
@@ -46,6 +58,15 @@ p {
   margin: 2em;
   border: solid slategray 1px;
   position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .backDoor {
+        width: 250px;
+        height: 250px;
+        margin: 2em 0;
+
+    }
 }
 
 .luukku-header {
@@ -75,6 +96,18 @@ p {
     margin-inline: auto;
     margin: 0 auto;
     overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .luukku-img {
+        height: 150px;
+    }
+    .luukku-header {
+        top: 0.5rem;
+    }
+    .luukku-header h2 {
+        font-size: 1.25rem;
+    }
 }
 
 .luukku-img img:hover {
