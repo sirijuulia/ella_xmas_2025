@@ -38,7 +38,7 @@ p {
 
 h2 {
     font-family: "Montserrat";
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .luukku-container {
@@ -106,7 +106,7 @@ h2 {
         top: 0.5rem;
     }
     .luukku-header h2 {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 
